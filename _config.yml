@@ -8,7 +8,7 @@
 # Site settings
 title: Jack Pickus
 email: pickus@cs.wisc.edu
-description: "A site by Jack Pickus."
+description: "A site about Jack Pickus."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  jackpickus

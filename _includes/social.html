@@ -1,0 +1,19 @@
+<footer>
+  {% if site.github_username %}
+  <div>
+    {% include social/github.html username=site.github_username %}
+  </div>
+  {% endif %}
+
+  {% if site.linkedin_username %}
+  <div>
+    {% include social/linkedin.html username=site.linkedin_username %}
+  </div>
+  {% endif %}
+
+  {% if site.email %}
+  <div>
+    {% include social/mail.html email=site.email %}
+  </div>
+  {% endif %}
+</footer>

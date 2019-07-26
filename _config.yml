@@ -1,18 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Jack Pickus
+title: Jack A. Pickus
 email: pickus@cs.wisc.edu
-description: "A site about Jack Pickus."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+description: A portfolio website about Jack Pickus
+baseurl: ""
+url: "http://yourdomain.com"
+picture: /assets/images/image.jpg
 github_username:  jackpickus
-linkedin_username: Jack Pickus
+linkedin_username: jackpickus
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+port: 8080

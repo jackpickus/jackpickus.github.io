@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to right, #000027 0%, #002467 100%);
+  color: #f8f8ff;
+  font-size: 10px;
+  font-family: "DejaVu Serif", "Times New Roman", Times, serif;
+}
+
+header {
+  width: 250px;
+  padding: 2% 5% 5% 5%;
+  position: relative;
+  float: left;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+#main {
+  padding-right: 20%;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+p,
+li,
+span {
+  line-height: 1.5;
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+#job {
+  font-weight: bold;
+}
+
+ul li:before {
+  content: "\00BB \0020";
+}
+
+footer {
+  display: flex;
+  margin-left: 25%;
+  padding-top: 10px;
+}
+
+.icon {
+  > svg {
+    display: inline-block;
+    width: 18px;
+    margin: 10px;
+
+    path {
+      fill: #d3d3d3;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding-left: 15%;
+  }
+
+  img {
+    width: 75%;
+    margin-bottom: 5%;
+  }
+
+  footer {
+    margin-left: 20%;
+  }
+}

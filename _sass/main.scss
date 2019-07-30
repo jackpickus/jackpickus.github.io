@@ -74,15 +74,21 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    padding-left: 15%;
+    padding-left: 7.5%;
   }
 
   img {
-    width: 75%;
+    //width: 75%;
     margin-bottom: 5%;
   }
 
   footer {
     margin-left: 20%;
   }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px){
+	header {
+		padding-bottom: 60%;
+	}
 }

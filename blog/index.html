@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+---
+<h1>What's been on my mind</h1>
+
+<div class="main">
+  <ol>
+    {% for post in site.posts %}
+    <li class="posts">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</div>

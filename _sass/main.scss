@@ -3,10 +3,12 @@ body {
   color: #f8f8ff;
   font-size: 10px;
   font-family: "DejaVu Serif", "Times New Roman", Times, serif;
+  // overflow: hidden;
 }
 
 header {
   width: 250px;
+  height: 800px;
   padding: 2% 5% 5% 5%;
   position: relative;
   float: left;
@@ -15,16 +17,22 @@ header {
 img {
   width: 100%;
   margin-bottom: 5%;
+  border-radius: 5%;
 }
 
 h1 {
   font-size: 1.6rem;
   font-weight: bold;
-  padding: 5%;
+  padding-top: 2%;
   padding-bottom: 0;
 }
 
-#main {
+#name {
+  padding: 5%;
+}
+
+.main {
+  padding-top: 10px;
   padding-right: 20%;
 }
 
@@ -38,12 +46,37 @@ h4 {
   text-decoration: underline;
 }
 
+.posts li {
+  content: none;
+}
+
 p,
 li,
 span {
   line-height: 1.5;
   font-size: 0.9rem;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f8f8ff;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+blockquote p {
+  font-size: 1.15rem;
+}
+
+blockquote cite {
+  font-size: 1rem;
+}
+
+.link {
+  font-size: 1.2rem;
+  margin-left: 75px;
 }
 
 #job {
@@ -54,10 +87,10 @@ ul li:before {
   content: "\00BB \0020";
 }
 
-footer {
+#social {
   display: flex;
-  margin-left: 25%;
-  padding-top: 10px;
+  margin-left: 22%;
+  padding-top: 5px;
 }
 
 .icon {
@@ -75,20 +108,20 @@ footer {
 @media only screen and (max-width: 600px) {
   body {
     padding-left: 7.5%;
+    // overflow: visible;
+  }
+
+  header {
+    height: auto;
   }
 
   img {
-    //width: 75%;
     margin-bottom: 5%;
-  }
-
-  footer {
-    margin-left: 20%;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 991px){
-	header {
-		padding-bottom: 60%;
-	}
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  header {
+    padding-bottom: 60%;
+  }
 }

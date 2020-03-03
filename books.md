@@ -8,6 +8,9 @@ title: Books
 #### The Power of the Dog
 By Don Winslow
 
+#### A Gentleman in Moscow
+By Amor Towles
+
 #### Benjamin Franklin: An American Life
 By Walter Isaacson
 

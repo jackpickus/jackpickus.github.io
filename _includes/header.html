@@ -7,9 +7,11 @@
         <li>Developer</li>
         <li>Spanish Enthusiast</li>
     </ul>
-    <a href="{{ "/blog" | prepend: site.baseurl }}" class="link">Blog</a>
-    <a href="{{ "/books" | prepend: site.baseurl }}" class="link">Books</a>
-    <a href="{{ "/quotes" | prepend: site.baseurl }}" class="link">Quotes</a>
+    <div>
+        <a href="{{ "/blog" | prepend: site.baseurl }}" class="link">Blog</a>
+        <a href="{{ "/books" | prepend: site.baseurl }}" class="link">Books</a>
+        <a href="{{ "/quotes" | prepend: site.baseurl }}" class="link">Quotes</a>
+    </div>
 
     {% include social.html %}
 </header>

@@ -7,9 +7,10 @@ url: "http://yourdomain.com"
 picture: /assets/images/image.jpg
 github_username:  jackpickus
 linkedin_username: jackpickus
+twitter_username: jackpickus
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-port: 8080
+port: 8000

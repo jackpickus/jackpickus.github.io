@@ -11,6 +11,12 @@
   </div>
   {% endif %}
 
+  {% if site.twitter_username %}
+  <div>
+    {% include social/twitter.html username=site.twitter_username %}
+  </div>
+  {% endif %}
+
   {% if site.email %}
   <div>
     {% include social/mail.html email=site.email %}

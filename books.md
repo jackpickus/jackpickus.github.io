@@ -16,3 +16,12 @@ By Walter Isaacson
 
 #### The Cuban Affair
 By Nelson DeMille
+
+#### Team of Rivals: The Political Genius of Abraham Lincoln
+By Doris Kearns Goodwin
+
+#### A Hero of Our Time
+By Mikhail Lermontov
+
+#### The Catcher in the Rye
+By J. D. Salinger

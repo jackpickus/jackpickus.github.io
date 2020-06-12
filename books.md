@@ -25,3 +25,6 @@ By Mikhail Lermontov
 
 #### The Catcher in the Rye
 By J. D. Salinger
+
+#### The Devil in the White City
+By Erik Larson

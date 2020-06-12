@@ -11,6 +11,9 @@ title: Quotes
 > To every man is given the key to the gates of heaven; the same key opens the gates of hell.  
 > -- <cite>Buddhist Proverb</cite>
 
+> If liberty means anything at all, it means the right to tell people what they do not want to hear.
+> -- <cite>George Orwell</cite>
+
 > We first make our habits, and then our habits make us.  
 > -- <cite>John Dryden</cite>
 

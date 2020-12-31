@@ -28,3 +28,6 @@ By J. D. Salinger
 
 #### Into the Wild
 By Jon Krakauer
+
+#### The Devil in the White City
+By Erik Larson

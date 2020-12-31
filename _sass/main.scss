@@ -8,7 +8,7 @@ body {
 
 header {
   width: 250px;
-  height: 830px;
+  height: 860px;
   padding: 2% 5% 5% 5%;
   position: relative;
   float: left;
@@ -29,6 +29,7 @@ h1 {
 
 #name {
   padding: 5%;
+  padding-left: 18%;
 }
 
 .main {
@@ -75,7 +76,8 @@ blockquote cite {
 
 .link {
   font-size: 1.2rem;
-  margin-left: 7%;
+  // margin-left: 7%;
+  margin-left: 10%;
 }
 
 #job {

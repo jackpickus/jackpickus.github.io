@@ -3,12 +3,10 @@ body {
   color: #f8f8ff;
   font-size: 10px;
   font-family: "DejaVu Serif", "Times New Roman", Times, serif;
-  // overflow: hidden;
 }
 
 header {
   width: 250px;
-  height: 950px;
   padding: 2% 5% 5% 5%;
   position: relative;
   float: left;
@@ -33,6 +31,11 @@ h1 {
 
 .main {
   padding-right: 20%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
 }
 
 h3 {
@@ -107,11 +110,11 @@ ul li:before {
 @media only screen and (max-width: 600px) {
   body {
     padding-left: 7.5%;
-    // overflow: visible;
   }
 
   header {
     height: auto;
+    float: none;
   }
 
   img {

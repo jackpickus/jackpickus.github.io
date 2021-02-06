@@ -46,3 +46,11 @@ title: Quotes
 > I like because you have to do very precise thinking. On the other hand, it has
 > a wildly creative side where the boundaries of imagination are the only real limitation.  
 > -- <cite>Andy Hertzfeld</cite>
+
+> It had long since come to my attention that people of accomplishment rarely sat
+> back and let things happen to them. They went out and happened to things.  
+> -- <cite>Leonardo da Vinci</cite>
+
+> Cowards die many times before their deaths,
+> The valiant never taste of death but once.  
+> -- <cite>Julius Caesar from The Tragedy of Julius Caesar by William Shakespeare</cite>

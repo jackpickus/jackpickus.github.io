@@ -9,8 +9,4 @@ github_username:  jackpickus
 linkedin_username: jackpickus
 twitter_username: jackpickus
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-
 port: 8000

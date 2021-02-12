@@ -9,4 +9,9 @@ github_username:  jackpickus
 linkedin_username: jackpickus
 twitter_username: jackpickus
 
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 port: 8000

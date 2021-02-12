@@ -11,30 +11,14 @@ $dracula_pink: #FF79C6;
 .highlight {
   background-color: $background;
 
-  .hll {
-    background-color: #49483e;
-  }
-  .c {
-    color: #a8a38d;
-  }
-  .err {
-    color: #960050;
-    background-color: #1e0010;
-  }
-  .l {
-    color: #ae81ff;
-  }
-  .n, .nf {
+  .n, .nf, .cp{
     color: $dracula_green;
   }
-  .o {
-    color: #f92672;
-  }
-  .p {
+  .p, .s {
     color: $dracula_yellow;
   }
-  .cm, .cp, .c1, .cs {
-    color: #a8a38d;
+  .cm, .c1, .cs {
+    color: $comment;
   }
   .ge {
     font-style: italic;
@@ -42,101 +26,25 @@ $dracula_pink: #FF79C6;
   .gs {
     font-weight: bold;
   }
-  .kc, .kd, .k {
+  .kc, .kd, .k, .nt {
     color: $dracula_pink;
-  }
-  .kn {
-    color: #f92672;
-  }
-  .kp, .kr, .kt {
-    color: #66d9ef;
-  }
-  .ld {
-    color: #e6db74;
-  }
-  .m {
-    color: #ae81ff;
-  }
-  .s {
-    color: #e6db74;
-  }
-  .na {
-    color: #a6e22e;
   }
   .nb {
     color: $dracula_pink;
   }
-  .nc {
+  .nc, .na {
     color: $dracula_cyan;
-  }
-  .no {
-    color: #66d9ef;
-  }
-  .nd {
-    color: #a6e22e;
-  }
-  .ni {
-    color: #f8f8f2;
-  }
-  .ne {
-    color: #a6e22e;
-  }
-  .nl, .nn {
-    color: #f8f8f2;
-  }
-  .nx {
-    color: #a6e22e;
   }
   .py {
     color: $dracula_orange;
   }
-  .nt {
-    color: #f92672;
-  }
-  .nv {
-    color: #f8f8f2;
-  }
-  .ow {
-    color: #f92672;
-  }
-  .w {
-    color: #f8f8f2;
-  }
-  .mf, .mh, .mi, .mo {
-    color: #ae81ff;
-  }
-  .sb, .sc, .sd, .s2 {
-    color: #e6db74;
-  }
-  .se {
-    color: #ae81ff;
-  }
-  .sh, .si, .sx, .sr, .s1, .ss {
-    color: #e6db74;
-  }
-  .bp, .vc, .vg, .vi {
-    color: #f8f8f2;
-  }
-  .il {
-    color: #ae81ff;
-  }
-  .gh {}
-  .gu {
-    color: #75715e;
-  }
-  .gd {
-    color: #f92672;
-  }
-  .gi {
-    color: #a6e22e;
-  }
 }
 
-// code {
-//   background-color: "#282C34";
-//   color: whitesmoke;
-// }
-// pre {
-//   background-color: "#282C34";
-//   color: whitesmoke;
-// }
+.lineno {
+  font-size: 1.07em;
+  line-height: 2.05em;
+}
+
+pre {
+  line-height: 2.04em;
+}

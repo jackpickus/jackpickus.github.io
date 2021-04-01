@@ -41,7 +41,7 @@ Go ahead and set it as a LinearLayout, then add in a TabLayout and then a ViewPa
 </LinearLayout>
 ```
 The important part of this layout is **line 12**. 
-This is used if we have a large number number of tabs so the user can scroll through them
+This is used if we have a large number of tabs so the user can scroll through them
 rather than try fitting every single one on the screen. However if you know the number of tabs
 will be small then you can omit that line. 
 

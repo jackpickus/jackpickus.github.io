@@ -5,6 +5,7 @@ description: A portfolio website about Jack Pickus
 baseurl: ""
 url: "http://yourdomain.com"
 picture: /assets/images/image.jpg
+og_picture: /assets/images/og.png
 github_username:  jackpickus
 linkedin_username: jackpickus
 twitter_username: jackpickus

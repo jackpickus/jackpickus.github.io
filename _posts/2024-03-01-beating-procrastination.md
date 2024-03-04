@@ -47,7 +47,7 @@ side project as much as you'd like to. Make a bet that you'll commit X amount of
 made that very bet, one commit a day on my side project in the month of December 2023. Some days I did the bare
 minimum but most days I went beyond one commit because I had gained so much momentum and progress, which coincides with the
 first idea. Objects in motion tend to stay in motion. If you're struggling to find the energy and motivation
-to do something, money can be an excellent way to get you going.
+to do something, money can be an excellent way to get you going. I just hope you don't lose the bet!
 
 ### Conclusion
 I hope these three ideas help you and maybe even gave you some new thoughts on how to beat procrastination.

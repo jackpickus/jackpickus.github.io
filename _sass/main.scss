@@ -116,10 +116,17 @@ ul li:before {
   header {
     height: auto;
     float: none;
+    text-align: center;
+    padding-bottom: 0%;
+  }
+
+  #header-bullets {
+    text-align: left;
   }
 
   img {
     margin-bottom: 5%;
+    width: auto;
   }
 }
 

@@ -54,3 +54,9 @@ title: Quotes
 > Cowards die many times before their deaths,
 > The valiant never taste of death but once.  
 > -- <cite>Julius Caesar from The Tragedy of Julius Caesar by William Shakespeare</cite>
+
+> These days, people know the price of everything and the value of nothing.
+> -- <cite>Oscar Wilde</cite>
+
+> Price is what you pay; value is what you get.
+> -- <cite>Warren Buffet</cite>

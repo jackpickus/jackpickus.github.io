@@ -1,38 +1,32 @@
 body {
-  background: linear-gradient(to right, #000027 0%, #002467 100%);
-  color: #f8f8ff;
-  font-size: 10px;
-  font-family: "DejaVu Serif", "Times New Roman", Times, serif;
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
 }
 
-header {
-  width: 250px;
-  padding: 2% 5% 5% 5%;
-  position: relative;
-  float: left;
-}
-
-img {
-  width: 100%;
-  margin-bottom: 5%;
-  border-radius: 5%;
-}
-
-h1 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  padding-top: 2%;
-  padding-bottom: 0;
+h1,
+h3,
+h4,
+strong {
+  color: #333;
 }
 
 .main {
-  padding-right: 20%;
   h4 {
     text-decoration: underline;
     &:hover {
       text-decoration: none;
     }
   }
+}
+
+#bio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .content {
@@ -56,14 +50,12 @@ h4 {
 p,
 li,
 span {
-  line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 1rem;
   list-style: none;
 }
 
 a {
   text-decoration: underline;
-  color: #f8f8ff;
   &:hover {
     text-decoration: none;
   }
@@ -79,7 +71,7 @@ blockquote cite {
 
 .link {
   font-size: 1.2rem;
-  margin-left: 7%;
+  margin: 3%;
 }
 
 #job {
@@ -92,46 +84,49 @@ ul li:before {
 
 #social {
   display: flex;
-  margin-left: 15%;
-  padding-top: 5px;
+  padding-top: 1.5%;
+  margin: 3%;
 }
 
 .icon {
   > svg {
     display: inline-block;
-    width: 20px;
+    width: 25px;
     margin: 10px;
 
     path {
-      fill: #d3d3d3;
+      fill: #333;
     }
   }
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    padding-left: 7.5%;
+  #bio {
+    display: block;
   }
 
   header {
-    height: auto;
-    float: none;
     text-align: center;
-    padding-bottom: 0%;
   }
 
-  #header-bullets {
-    text-align: left;
+  #social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   img {
     margin-bottom: 5%;
     width: auto;
   }
+
+  p {
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 991px) {
-  header {
-    padding-bottom: 60%;
+  p {
+    font-size: 1.1rem;
   }
 }

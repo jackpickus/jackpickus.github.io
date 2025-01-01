@@ -1,17 +1,11 @@
 <header>
-    <img src="{{ site.picture }}" id="pic" alt="{{ site.title }}" />
-
-    <h1><a href="{{ "/" | prepend: site.baseurl }}" id="name">Jack A. Pickus</a></h1>
-    <ul id="header-bullets">
-        <li>Software Developer</li>
-        <li>Language Enthusiast</li>
-        <li>Writer</li>
-    </ul>
+    <div id="bio">
+        <h1><a href="{{ "/" | prepend: site.baseurl }}" id="name">Jack A. Pickus</a></h1>
+        {% include social.html %}
+    </div>
     <div>
         <a href="{{ "/blog" | prepend: site.baseurl }}" class="link">Blog</a>
         <a href="{{ "/books" | prepend: site.baseurl }}" class="link">Books</a>
         <a href="{{ "/quotes" | prepend: site.baseurl }}" class="link">Quotes</a>
     </div>
-
-    {% include social.html %}
 </header>

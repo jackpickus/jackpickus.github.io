@@ -32,7 +32,7 @@ title: Quotes
 > The power of imagination makes us infinte.  
 > -- <cite>John Muir</cite>
 
-> Always drink gin with a mark, kid. He can't tell if you cut it.
+> Always drink gin with a mark, kid. He can't tell if you cut it.  
 > -- <cite>Paul Newman (The Sting)</cite>
 
 > Do your own thinking independently. Be the chess player, not the chess piece.  

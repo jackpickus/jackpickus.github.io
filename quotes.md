@@ -32,11 +32,8 @@ title: Quotes
 > The power of imagination makes us infinte.  
 > -- <cite>John Muir</cite>
 
-> You can spend minutes, hours, days, weeks, or even months over-analyzing a 
-> situation; trying to put the pieces together, justifying what could've, 
-> would've happened... or you can just leave the pieces on the floor and move 
-> the fuck on.   
-> -- <cite>Tupac Shakur</cite>
+> Always drink gin with a mark, kid. He can't tell if you cut it.
+> -- <cite>Paul Newman (The Sting)</cite>
 
 > Do your own thinking independently. Be the chess player, not the chess piece.  
 > -- <cite>Ralph Charell</cite>

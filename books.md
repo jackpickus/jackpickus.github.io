@@ -34,3 +34,6 @@ By Erik Larson
 
 #### Atomic Habits
 By James Clear
+
+#### The Shining
+By Stephen King

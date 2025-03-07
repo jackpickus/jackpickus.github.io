@@ -1,17 +1,33 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --link-color: blue;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: rgb(28, 28, 30);
+    --text-color: rgb(229, 229, 234);
+    --link-color: rgb(100, 210, 255);
+  }
+}
+
 body {
   margin: 0 auto;
   max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   padding: 4em 1em;
-  color: #555;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 h1,
 h3,
 h4,
 strong {
-  color: #333;
+  color: var(--text-color);
 }
 
 .main {
@@ -55,6 +71,7 @@ span {
 }
 
 a {
+  color: var(--link-color);
   text-decoration: underline;
   &:hover {
     text-decoration: none;
@@ -95,7 +112,7 @@ ul li:before {
     margin: 10px;
 
     path {
-      fill: #333;
+      fill: var(--text-color);
     }
   }
 }
